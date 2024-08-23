@@ -1,0 +1,20 @@
+/* Puedes agregar estilos personalizados aquí *//* app.component.css */
+
+/* Estilo para el contenedor principal */
+div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo para el título */
+h1 {
+  color: #2c3e50;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+/* Estilo para el router outlet */
+router-outlet {
+  display: block;
+  margin-top: 20px;
+}
