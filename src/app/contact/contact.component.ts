@@ -2,17 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
-  selector: 'app-contacto',
-  templateUrl: './contacto.component.html',
-  styleUrls: ['./contacto.component.css']
+  selector: 'app-contact',
+  templateUrl: './contact.component.html',
+  styleUrls: ['./contact.component.css']
 })
-export class ContactoComponent implements OnInit {
-  contactoForm: FormGroup;
+export class ContactComponent implements OnInit {
+  contactForm: FormGroup;
 
   constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
-    this.contactoForm = this.fb.group({
+    this.contactForm = this.fb.group({
       nombre: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       mensaje: ['', Validators.required]
@@ -20,8 +20,8 @@ export class ContactoComponent implements OnInit {
   }
 
   onSubmit(): void {
-    if (this.contactoForm.valid) {
-      console.log('Formulario enviado', this.contactoForm.value);
+    if (this.contactForm.valid) {
+      console.log('Formulario enviado', this.contactForm.value);
       // Aquí puedes agregar lógica para enviar el formulario
     }
   }

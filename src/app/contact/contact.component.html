@@ -1,22 +1,22 @@
-<form [formGroup]="contactoForm" (ngSubmit)="onSubmit()">
+<form (ngSubmit)="onSubmit()">
     <label for="nombre">Nombre:</label>
     <input id="nombre" formControlName="nombre">
-    <div *ngIf="contactoForm.get('nombre').invalid && contactoForm.get('nombre').touched">
+    <div *ngIf="contactForm.get('nombre').invalid && contactForm.get('nombre').touched">
       Nombre es obligatorio.
     </div>
   
     <label for="email">Email:</label>
     <input id="email" formControlName="email" type="email">
-    <div *ngIf="contactoForm.get('email').invalid && contactoForm.get('email').touched">
+    <div *ngIf="contactForm.get('email').invalid && contactForm.get('email').touched">
       Email es obligatorio y debe ser válido.
     </div>
   
     <label for="mensaje">Mensaje:</label>
     <textarea id="mensaje" formControlName="mensaje"></textarea>
-    <div *ngIf="contactoForm.get('mensaje').invalid && contactoForm.get('mensaje').touched">
+    <div *ngIf="contactForm.get('mensaje').invalid && contactForm.get('mensaje').touched">
       Mensaje es obligatorio.
     </div>
   
-    <button type="submit" [disabled]="contactoForm.invalid">Enviar</button>
+    <button type="submit" [disabled]="contactForm.invalid">Enviar</button>
   </form>
   
