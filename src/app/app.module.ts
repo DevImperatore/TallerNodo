@@ -10,18 +10,17 @@ import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent,
     HomeComponent,
     AboutComponent,
     ContactComponent
   ],
   imports: [
+    AppComponent,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HeaderComponent,
+    FooterComponent,
   ],
   providers: [],
-  bootstrap: [AppComponent]
 })
 export class AppModule { }
