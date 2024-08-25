@@ -7,7 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-
+import { NavbarComponent } from './navbar/navbar.component';
+import { MainContentComponent } from './main-content/main-content.component';
 @NgModule({
   declarations: [
     HomeComponent,
@@ -16,7 +17,9 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     AppComponent,
+    MainContentComponent,
     BrowserModule,
+    NavbarComponent,
     AppRoutingModule,
     HeaderComponent,
     FooterComponent,

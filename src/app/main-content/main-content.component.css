@@ -1,0 +1,67 @@
+/* Estilos del main-content */
+.main-content {
+    background-color: #ffffff; /* Fondo blanco para mantener el diseño limpio */
+    padding: 40px 20px;
+  }
+  
+  .main-section {
+    margin-bottom: 40px;
+  }
+  
+  .main-section h2 {
+    font-size: 28px;
+    color: #333; /* Color oscuro para el texto de los títulos */
+    margin-bottom: 20px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-item {
+    background-color: #f4f4f4; /* Fondo gris claro para los proyectos */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidad */
+    flex: 1 1 calc(50% - 20px); /* Ajusta el tamaño de los items de los proyectos */
+  }
+  
+  .project-item h3 {
+    font-size: 20px;
+    color: #333; /* Color oscuro para el texto de los títulos de proyectos */
+    margin-top: 0;
+  }
+  
+  .contact-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .contact-form label {
+    font-size: 16px;
+    color: #333; /* Color oscuro para las etiquetas */
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e1e1e1; /* Borde gris claro */
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #007acc; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #005f99; /* Color de fondo del botón en hover */
+  }
+  
