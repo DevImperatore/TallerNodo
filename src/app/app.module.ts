@@ -2,28 +2,30 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MainContentComponent } from './main-content/main-content.component';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
+import { ContactComponent } from './contact/contact.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
-    HomeComponent,
-    AboutComponent,
-    ContactComponent
+    AppComponent,
+    NavbarComponent,
+    MainContentComponent,
+    HabilidadesComponent,
+   ContactComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
-    AppComponent,
-    MainContentComponent,
     BrowserModule,
-    NavbarComponent,
     AppRoutingModule,
-    HeaderComponent,
-    FooterComponent,
+    ReactiveFormsModule
   ],
   providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
