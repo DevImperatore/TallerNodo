@@ -1,52 +1,51 @@
 .skills {
-    background-color: #fafafa; /* Fondo suave */
-    padding: 60px 20px;
-  }
-  
-  .skills-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #ffffff; /* Fondo blanco para destacar el contenido */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave */
-    border-radius: 8px; /* Bordes redondeados */
-  }
-  
-  .skills h2 {
-    font-size: 32px;
-    color: #333;
-    margin-bottom: 25px;
-    text-align: center;
-    font-weight: 400;
-  }
-  
-  .skills-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* Espaciado entre las habilidades */
-  }
-  
-  .skill {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .skill h3 {
-    font-size: 18px;
-    color: #555;
-  }
-  
-  .progress-bar {
-    background-color: #e0e0e0; /* Fondo de la barra de progreso */
-    border-radius: 20px;
-    overflow: hidden;
-    height: 10px;
-  }
-  
-  .progress {
-    background-color: #007acc; /* Color de la barra de progreso */
-    height: 100%;
-    border-radius: 20px;
-  }
-  
+  background-color: #f5f5e8; /* Fondo arena claro */
+  padding: 60px 20px;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff; /* Fondo blanco para destacar el contenido */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+.skills h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaciado entre las habilidades */
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill h3 {
+  font-size: 18px;
+  color: #555;
+}
+
+.progress-bar {
+  background-color: #e0e0e0; /* Fondo de la barra de progreso */
+  border-radius: 20px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.progress {
+  background-color: #f5d8a0; /* Color de la barra de progreso, tono arena */
+  height: 100%;
+  border-radius: 20px;
+}

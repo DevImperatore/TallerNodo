@@ -1,0 +1,60 @@
+.projects-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .projects-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1 1 calc(33.333% - 20px); /* Tres tarjetas por fila con espacio entre ellas */
+    margin-bottom: 20px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .project-info {
+    padding: 20px;
+  }
+  
+  .project-info h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .project-info p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  

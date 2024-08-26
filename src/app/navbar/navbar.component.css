@@ -1,6 +1,6 @@
 .navbar {
-  background-color: #f9f9f9; /* Fondo claro */
-  border-bottom: 1px solid #e1e1e1; /* Sutil borde */
+  background-color: #f5f5e8; /* Fondo arena claro para seguir el estilo nórdico */
+  border-bottom: 1px solid #e0d6c5; /* Borde sutil en tono arena */
   padding: 15px 0;
 }
 
@@ -10,28 +10,34 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .navbar-logo h1 {
   font-size: 24px;
-  color: #333;
+  color: #333; /* Color de texto oscuro */
   font-weight: 300; /* Tipografía ligera */
 }
 
 .navbar-menu {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 25px; /* Espaciado entre los elementos del menú */
+  margin: 0;
+}
+
+.navbar-menu li {
   margin: 0;
 }
 
 .navbar-menu a {
   text-decoration: none;
-  color: #007acc; /* Azul nórdico */
+  color: #333; /* Color de texto oscuro */
   font-size: 16px;
   font-weight: 300; /* Ligero y limpio */
+  transition: color 0.3s ease; /* Suave transición de color */
 }
 
 .navbar-menu a:hover {
-  color: #005f99; /* Azul más oscuro en hover */
+  color: #007acc; /* Azul nórdico en hover */
 }
